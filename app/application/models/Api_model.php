@@ -48,7 +48,6 @@ class Api_model extends CI_Model {
 
         $ch = curl_init($url);
         $data = array(
-            'app_id' => "d99df0ae-f45c-4550-b71e-c9c793524da1",
             'post_date' => date('Y-m-d H:i:s'),
             'game' => $_POST[game]
         );
